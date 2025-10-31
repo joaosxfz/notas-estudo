@@ -15,3 +15,5 @@ Para texto voce usa aspas
 texto = string
 
 juntar texto = concatenar
+
+Variavel: espaço na memória
