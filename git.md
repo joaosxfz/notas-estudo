@@ -9,3 +9,9 @@ Salvar Arquivo = Ctrl + S
 Atalho para abrir pasta = Ctrl + K + O 
 
 Em java script precisa usar aspas quando é texto
+
+Para texto voce usa aspas
+
+texto = string
+
+juntar texto = concatenar
