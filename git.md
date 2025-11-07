@@ -17,3 +17,14 @@ texto = string
 juntar texto = concatenar
 
 Variavel: espaço na memória
+
+
+
+
+
+
+
+
+
+
+
