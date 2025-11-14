@@ -1,6 +1,6 @@
 //FUP para subtrair dois números
-const num1 = 10
-const num2 = 5
+const num1 = prompt("Digite um número")
+const num2 = prompt("Digite um número")
 const resultado = num1-num2
 
-console.log("a subtração de " +num1+ " é " +resultado)
+alert("a subtração de " +num1+ " com " +num2+ " é " +resultado)
