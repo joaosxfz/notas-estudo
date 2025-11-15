@@ -7,4 +7,4 @@ const num4 = Number(prompt("Peso da 4ª pessoa"))
 const num5 = Number(prompt("Peso da 5ª pessoa"))
 const resultado = (num1+num2+num3+num4+num5) / 5
 
-alert("A média do peso das 5 pessoas é " +resultado+ " kg ")
+alert("A média do peso das 5 pessoas é " +resultado+ " kg ") 
