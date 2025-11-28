@@ -14,8 +14,10 @@ const media = soma / 3
 //media maior que 7
 if(media < 3) {
     alert("Média é insuficiente " + media + " - Horrivel")
-} else if (media < 7) {
+} 
+else if (media < 7) {
      alert("Média é insuficiente " + media + " - Da pra melhorar")
-} else {
+} 
+else {
      alert("Média é suficiente " + media + " - Excelente")
 }
