@@ -1,8 +1,8 @@
 //Entrada - variaveis
 //Media aritmetica de 3 notas, e menor 3 horrivel
 //menor que 7 da pra melhorar, maior 7 excelente
-const nota1 = prompt("Digite a 1ª nota")
-const nota2 = prompt("Digite a 2ª nota")
+const nota1 = Number(prompt("Digite a 1ª nota"))
+const nota2 = Number(prompt("Digite a 2ª nota"))
 const nota3 = Number(prompt("Digite a 3ª nota"))
 
 //Processamento
