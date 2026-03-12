@@ -36,3 +36,10 @@ Atualizar Repositório:
 ```bash
 git pull
 ```
+
+## 03 - Fórmulas
+
+Porcentagem:
+```bash
+valor * (1 + porcentagem / 100)
+```
