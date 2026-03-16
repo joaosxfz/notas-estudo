@@ -20,6 +20,10 @@ Adicionar chave ssh ao agente:
 ```bash
 ssh-add ~/.ssh/id_ed25519
 ```
+Copiar a chave pública:
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
 Resultado colocar em "SSH and GPG keys"
 
 teste: 
