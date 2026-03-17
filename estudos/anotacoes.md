@@ -30,6 +30,7 @@ teste:
 ```bash 
 ssh -T git@github.com
 ```
+
 ## 02 - Comandos Básicos
 
 Clonar Repositório:
@@ -41,9 +42,35 @@ Atualizar Repositório:
 git pull
 ```
 
+Linkar ao CSS:
+```bash
+<link type="text/css" rel="stylesheet" href="./css/tema.css">
+```
+
+Linkar:
+```bash
+<script src="./..."></script>
+```
+
 ## 03 - Fórmulas
 
 Porcentagem:
 ```bash
 valor * (1 + porcentagem / 100)
+```
+
+## 04 - Doom
+
+Função e Conexão com Botão no Index:
+```bash
+function exercicio1() {
+
+}
+const buttonexercicio1 = document.getElementById("exercicio1")
+buttonexercicio1.addEventListener('click', () => { exercicio1() })
+```
+
+Botão no Index:
+```bash
+<button id="exercicio1">Executar Exercicio 1</button>
 ```
