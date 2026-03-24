@@ -422,173 +422,84 @@ const buttonexercicio20 = document.getElementById("exercicio20")
 buttonexercicio20.addEventListener('click', () => { exercicio20() })
 ```
 
-## 07 - Exercicios Lista 1
+## 07 - Resumo VisuAlg
+
+Estrutura básica:
 
 ```bash
-//01 - Produto
-{
-const produto = prompt("Digite o nome do produto")
-const preco = prompt("Digite o preço do produto")
-alert("O " + produto + " custa " + preco)
-}
+algoritmo "nome"
 
-//02 - Área do terreno
-{
-const comp = prompt("Digite o comprimento")
-const largura = prompt("Digite a largura")
-alert("Área: " + (comp * largura))
-}
+var
+   // variáveis aqui
 
-//03 - Parcelas
-{
-const total = Number(prompt("Valor total"))
-const parcelas = Number(prompt("Número de parcelas"))
-alert(parcelas + "x de R$ " + (total / parcelas))
-}
+inicio
+   // código aqui
+fimalgoritmo
+```
 
-//04 - Dias → Horas
-{
-const dias = Number(prompt("Dias"))
-alert("Horas: " + (dias * 24))
-}
+Variáveis:
 
-//05 - Depósito +2%
-{
-const valor = Number(prompt("Depósito"))
-alert("Saldo: " + (valor * 1.02))
-}
+```bash
+var
+  idade: inteiro
+  altura: realidade 
+  nome: caractere
+  ativo: logico
+```
 
-//06 - Consumo km/l
-{
-const litros = Number(prompt("Litros"))
-const km = Number(prompt("Km"))
-alert("Consumo: " + (km / litros))
-}
+Atribuição:
 
-//07 - Antecessor e sucessor
-{
-const n = Number(prompt("Número"))
-alert("Antecessor: " + (n-1) + " Sucessor: " + (n+1))
-}
+```bash
+idade <- 18
+nome <- "João"
+```
 
-//08 - Semanas vividas
-{
-const idade = Number(prompt("Idade"))
-alert("Semanas: " + (idade * 52))
-}
+Entrada e saída:
 
-//09 - Arredondamento
-{
-const num = Number(prompt("Decimal"))
-const baixo = num - (num % 1)
-const cima = baixo + 1
-alert("Baixo: " + baixo + " Cima: " + cima + " 2 casas: " + num.toFixed(2))
-}
+```bash
+leia(nome)
+escreva("Olá")
+escreval("Olá") // pula linha
+```
 
-//10 - Aumento e desconto
-{
-const valor = Number(prompt("Valor"))
-alert("Aumento: " + (valor*1.15) + " Desconto: " + (valor*0.90))
-}
+Condição (se):
 
-//11 - Comparar números
-{
-const n1 = Number(prompt("Número 1"))
-const n2 = Number(prompt("Número 2"))
-if (n1 === n2) {
-    alert("Iguais")
-} else if (n1 < n2) {
-    alert("Menor: " + n1)
-} else {
-    alert("Menor: " + n2)
-}
-}
+```bash
+se idade >= 18 entao
+   escreva("maior")
+senao
+   escreva("menor")
+fimse
+```
 
-//12 - Votação
-{
-const idade = Number(prompt("Idade"))
-if (idade < 16) {
-    alert("Não vota")
-} else if (idade <= 17) {
-    alert("Opcional")
-} else {
-    alert("Obrigatório")
-}
-}
+Loop enquanto:
 
-//13 - Desconto 5%
-{
-const compra = Number(prompt("Valor"))
-if (compra > 100) {
-    alert("Com desconto: " + (compra*0.95))
-} else {
-    alert("Sem desconto")
-}
-}
+```bash
+enquanto x < 10 faca
+   x <- x + 1
+fimenquanto
+```
 
-//14 - Temperatura
-{
-const t = Number(prompt("Temperatura"))
-if (t < 15) {
-    alert("Frio")
-} else if (t <= 25) {
-    alert("Agradável")
-} else {
-    alert("Quente")
-}
-}
+Loop para:
 
-//15 - Múltiplo de 5
-{
-const n = Number(prompt("Número"))
-if (n % 5 === 0) {
-    alert("Múltiplo de 5")
-} else {
-    alert("Não é múltiplo")
-}
-}
+```bash
+para i de 1 ate 10 faca
+   escreval(i)
+fimpara
+```
 
-//16 - Divisibilidade
-{
-const n1 = Number(prompt("Número 1"))
-const n2 = Number(prompt("Número 2"))
-if (n1 % n2 === 0) {
-    alert("Divisível")
-} else {
-    alert("Não divisível")
-}
-}
+Operadores:
 
-//17 - Saudação
-{
-const h = Number(prompt("Hora"))
-if (h >= 5 && h <= 11) {
-    alert("Bom dia")
-} else if (h <= 17) {
-    alert("Boa tarde")
-} else {
-    alert("Boa noite")
-}
-}
+```bash
++  -  *  /
+>  <  >=  <=  =  <>
+```
 
-//18 - Área trapézio
-{
-const B = Number(prompt("Base maior"))
-const b = Number(prompt("Base menor"))
-const h = Number(prompt("Altura"))
-alert("Área: " + ((B + b) * h / 2))
-}
-
-//19 - Círculo
-{
-const r = Number(prompt("Raio"))
-alert("Área: " + (Math.PI*r*r) + " Circunferência: " + (2*Math.PI*r))
-}
-
-//20 - IMC
-{
-const altura = Number(prompt("Altura"))
-const peso = Number(prompt("Peso"))
-alert("IMC: " + (peso / (altura*altura)).toFixed(1))
-}
+Dicas rápidas:
+```bash
+* leia = entrada
+* escreva = saída
+* <- = recebe valor
+* se = decisão
+* enquanto/para = repetição
 ```
