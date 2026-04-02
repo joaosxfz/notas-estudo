@@ -57,6 +57,20 @@ Entre dois números (10-50):
 variavel >= 10 && variavel <= 50
 ```
 
+Baixar bibliotecas que o código precisa:
+```bash
+npm i
+```
+
+Go live do React
+```bash
+npm run dev
+```
+
+Interpretar como variavel e não texto:
+```bash
+{ variavel }
+```
 
 ## 03 - Fórmulas
 
