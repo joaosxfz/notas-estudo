@@ -19,3 +19,4 @@ Interpretar como variavel e não texto:
 ```bash
 { variavel }
 ```
+
