@@ -3,6 +3,7 @@
 ```bash
 function exercicio1() {
 //1. Peça ao usuário o nome de um produto e o preço. Mostre uma mensagem dizendo quanto custa o produto.
+
     const produto = prompt("Digite o nome do produto")
     const preco = prompt("Digite o preço do produto")
 
@@ -30,6 +31,7 @@ buttonexercicio2.addEventListener('click', () => { exercicio2() })
 
 function exercicio3() {
 //3. Peça o valor total de uma compra e o número de parcelas. Mostre o valor de cada parcela.
+
     const valorT = Number(prompt("Digite o valor da compra"))
     const numP = Number(prompt("Digite o número de parcelas da compra"))
     const resultado = valorT / numP
@@ -56,6 +58,7 @@ buttonexercicio4.addEventListener('click', () => { exercicio4() })
 
 function exercicio5() {
 //5. Peça o valor de um depósito bancário e calcule o saldo após adicionar 2% de rendimento.
+
     const valorD = Number(prompt("Digite o valor do depósito"))
     const resultado = valorD * (1 + 2 / 100)
 
@@ -81,7 +84,8 @@ buttonexercicio6.addEventListener('click', () => { exercicio6() })
 // -------------------------QUESTÃO 7---------------------------------------------
 
 function exercicio7() {
-//7. Peça um número e mostre: Seu antecessor Seu sucessor
+//7. Peça um número e mostre: Seu antecessor e Seu sucessor
+
     const pedido = Number(prompt("Digite um número"))
     const ante = pedido - 1
     const suce = pedido + 1
@@ -95,6 +99,7 @@ buttonexercicio7.addEventListener('click', () => { exercicio7() })
 
 function exercicio8() {
 //8. Peça a idade de uma pessoa e mostre: Quantas semanas ela já viveu (considere 52 semanas por ano)
+
     const idade = Number(prompt("Digite a idade"))
     const resultado = 52 * idade
 
