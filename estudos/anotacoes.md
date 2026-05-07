@@ -78,4 +78,6 @@ buttonexercicio1.addEventListener('click', () => { exercicio1() })
 Botão no Index:
 ```bash
 <button id="exercicio1">Executar Exercicio 1</button>
+
+
 ```
